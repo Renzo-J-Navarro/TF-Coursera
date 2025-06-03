@@ -1,0 +1,16 @@
+101,Python,Programacion,40 horas,55.49
+102,C++,Programacion,35 horas,50.50
+103,MySQL,Programacion,32 horas,34.99
+104,Analisis de Datos,Programacion,36 horas,26.40
+105,Diseno UX,Diseno,20 horas,34.49
+106,Excel Basico,Informatica,14 hora,12.49
+107,Excel Avanzado,Informatica,20 horas,19.99
+108,Excel Intermedio,Informatica,18 horas,15.50
+109,Economia,Finanzas,25 horas,24.49
+110,Contabilidad,Finanzas,32 horas,34.59
+111,Administracion Empresas,Finanzas,21 horas,26.49
+112,Negocios Internacionales,Finanzas,28 horas,34.50
+113,Marqueting Digital,Finanzas,30 horas,42.49
+114,Ciencias Politicas,CSociales,26 horas,26.29
+115,Periodismo,CSociales,35 hora,37.00
+116,Diseno de Planos,Arquitectura,37 horas,36.00

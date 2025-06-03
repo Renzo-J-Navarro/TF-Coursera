@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Boleta" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAFBQAAAQIAAAABEAAEIABAAIRgDAQCAAAQIEAAAAAA=</HashCode>
+      <FileName>Boleta.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Carrito&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAAAAAAAAAAAAEAgAACAAAAAAAAEAAAAgACAAAAA=</HashCode>
+      <FileName>Carrito.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Certificado" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAEAQAAEAAAAAAEAAAAAAABAAAAAAAAAACIAAAAA=</HashCode>
+      <FileName>Certificado.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cliente&lt;T&gt;" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgCAAAAAAAAgAAACIASAgAAIIAwAAAAAAAAAAgIAAAA=</HashCode>
+      <FileName>Cliente.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curso&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EICAgAAAIQIwEAAQABABAQAAABAAAAgAAAAAAAEBEEA=</HashCode>
+      <FileName>Curso.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Idioma" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAAAAABIAAABCIEAAAAAAEAiAAAAAAIAAAABAACIA=</HashCode>
+      <FileName>Idioma.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListaCurso&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAACAGAADAAAAAJIAgQAAAQAAAIAAghCYAAAICQAA=</HashCode>
+      <FileName>ListaCurso.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListaIdioma&lt;T&gt;" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ListaIdioma.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListaUsuario&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIAAAAgEgAIACAggAAQQAAAAAAAgAQCAAAAAAA=</HashCode>
+      <FileName>ListaUsuario.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nodo&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAA=</HashCode>
+      <FileName>Nodo.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Premium" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAIAAAAAAAAUAAAAAAAAAAAAIIIgAQAAAAAAIA=</HashCode>
+      <FileName>Premium.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Usuario&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAAIABBgAAAAAEAAAQAAAAABAAAJAAAAGgEAAAAA=</HashCode>
+      <FileName>Usuario.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DetalleCurso" Collapsed="true">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAJAAAAAAIAIAAAAAAAAAAAAAAAAAAACEA=</HashCode>
+      <FileName>Boleta.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
