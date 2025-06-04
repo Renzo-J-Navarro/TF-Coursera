@@ -26,11 +26,6 @@ public:
 	double getDescuentoBol() const { return _boleta.getDescuento(); }
 	double getSubtotalBol() const { return _boleta.getSubtotal(); }
 
-	void gestionarBoleta() {
-
-	}
-
-
 	bool validarDatosCurso() const {
 		for (const auto& curso : seleccionCurso) {
 			if (curso.getPrecioCurso() < 0 || curso.getCantidadCurso() <= 0) {
@@ -54,11 +49,19 @@ public:
 		_boleta.setSubtotal(calculaSubtoral);
 		// lambda calcular 18% IGV
 		auto calculaIGV = [](double subtotal) {return subtotal * 0.18; };
-		// lambada calcular 15% descuento
-		auto calculaDescuento = [](double subtotal) { return subtotal * 0.15; };
+		double dscto = 0.0; // Inicializa descuento a 0
+		if (_boleta.esPremium())
+		{
+			// lambada calcular 15% descuento
+			auto calculaDescuento = [](double subtotal) { return subtotal * 0.15; };
+			double dscto = calculaDescuento(calculaSubtoral);
+		}
+		else
+		{
+			dscto = 0.0; // Si no es premium, no hay descuento
+		}
 
 		double IGV_m = calculaIGV(calculaSubtoral);
-		double dscto = calculaDescuento(calculaSubtoral);
 		double Total_m = calculaSubtoral + IGV_m - dscto;
 
 		_boleta.setMontoIGV(IGV_m);
