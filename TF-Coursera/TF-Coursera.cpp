@@ -268,8 +268,10 @@ int main() {
             string hora = (horaInt < 10 ? "0" + to_string(horaInt) : to_string(horaInt)) + ":" +
                 (minuto < 10 ? "0" + to_string(minuto) : to_string(minuto));
 
-            Boleta boletaCurso("Coursera", numOperacion, fecha, hora,
-                metodoPago, "correo", "nombreCliente", detalles);
+            // Reemplaza la línea problemática por la construcción correcta usando DetalleBoleta
+            DetalleBoleta detalle("Coursera", numOperacion, fecha, hora, metodoPago, "correo", "nombreCliente");
+            Boleta boletaCurso(detalle, detalles);
+            boletaCurso.mostrarBoletaCurso();
             boletaCurso.mostrarBoletaCurso();
 
             string ruta = boletaCurso.generarNombreArchivo();

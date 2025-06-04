@@ -132,6 +132,7 @@
     <ClInclude Include="Certificado.hpp" />
     <ClInclude Include="Cliente.hpp" />
     <ClInclude Include="Curso.hpp" />
+    <ClInclude Include="DetalleBoleta.hpp" />
     <ClInclude Include="DetalleCurso.hpp" />
     <ClInclude Include="Idioma.hpp" />
     <ClInclude Include="ListaCurso.hpp" />
